@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    color: gray;
+    }
+    
+li {
+    list-style: none;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height:100px;
+    padding: 0px 50px;
+    justify-content:space-between;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    font-weight: 600;
+}
+
+nav>div{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 8px;
+}
+
+.navlinks{
+    display: flex;
+    flex-direction:row;
+    gap: 8px;
+}
+.navlinks>li { 
+    height: 24px;
+    display: flex;
+    align-items:center;
+    padding: 0px 10px;
+}
+
+.navlinks>li>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.card>div{
+    height: 100px;
+    background-color: rgb(52, 192, 202);
+}
+
+.col-md-8 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+
+}
+
+.col-md-4 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 80px;
+    font-family: Arial, sans-serif;
+}
+
+.row2{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding: 15px 30px;
+
+}
+
+.card{
+    width: 800px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card>section{
+    margin-left: 40px;
+    font-family: Arial;
+}
+
+
+.educacion{
+display: flex;
+flex-direction: column;
+padding: 10px 10px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.educacion>section{
+margin-left: 40px;
+font-family: Arial;
+}
+
+.usuario{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 30px;
+    justify-content: space-between;
+    gap: 35px;
+    
+
+}
+.foto_usuario2{
+    outline: rgb(52, 192, 202) solid
+}
+
+.usuario>img{
+    height: 50px;
+    width: 50px;
+
+} 
+
+.solicitudes{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px 30px;
+}
+
+.conexiones{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.conexiones>h3{
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+.personas{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    padding: 0 30px ;
+    gap: 10px;
+}
+
+.personas>img{
+    height: 60px;
+    border-radius: 50px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    
+    
+}
+
+.conexiones{
+    margin-bottom: 15px;
+
+}
+
+
+.foto_usuario{
+width: 150px;
+height: 150px;
+border-radius: 80%;
+transform: translateY(-35px);
+border: 5px solid white;                    
+}
+
+
+.btnav{
+    background-color: rgb(52, 192, 202);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.btn{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(28, 112, 208);
+    border: none;
+}
+
+.btn img{
+    width: 30px;
+    height: 30px;
+}
+
+
